@@ -24,7 +24,7 @@ DISTDIR = .
 vpath %.tns $(DISTDIR)
 vpath %.elf $(DISTDIR)
 
-all: $(EXE).tns
+all: clean $(EXE).tns
 
 %.o: %.c
 	$(GCC) $(GCCFLAGS) -c $< -o $@
