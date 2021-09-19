@@ -15,17 +15,12 @@ endif
 
 OBJS += $(patsubst %.cpp, %.o, $(shell find . -name \*.cpp))
 EXE = Editor_PC_SDL
-DISTDIR = ./PC
-
+DISTDIR = .
 
 all: clean $(EXE).exe
 
-%.o: %.c
-	$(GCC) $(GCCFLAGS) -c $< -o $@
-
 %.o: %.cpp
 	$(GXX) $(GCCFLAGS) -c $< -o $@
-
 
 $(EXE).elf: $(OBJS)
 	mkdir -p $(DISTDIR)
