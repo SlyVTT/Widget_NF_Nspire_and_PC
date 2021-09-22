@@ -2,44 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="ToolkitNF/Managers/TimeManager.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="601" topLine="42" />
+		</Cursor>
+	</File>
 	<File name="ToolkitNF/Widgets/SplashScreenWidget.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2488" topLine="101" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Widgets/InputWidget.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1966" topLine="77" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Renderers/ScreenRenderer.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="11051" topLine="39" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Widgets/IconItemWidget.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2398" topLine="101" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Renderers/DepthBufferRenderer.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="7872" topLine="36" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Globals/GUIToolkitNFGlobals.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Renderers/DepthBufferRenderer.hpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="289" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="ToolkitNF/Managers/KeyManager.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="52084" topLine="1299" />
 		</Cursor>
 	</File>
 	<File name="ToolkitNF/Widgets/WidgetApplication.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -47,14 +17,34 @@
 			<Cursor1 position="1935" topLine="75" />
 		</Cursor>
 	</File>
-	<File name="ToolkitNF/Managers/TimeManager.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ToolkitNF/Managers/KeyManager.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="272" topLine="3" />
+			<Cursor1 position="0" topLine="570" />
 		</Cursor>
 	</File>
-	<File name="SimpleCodeEditor.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ToolkitNF/Widgets/IconItemWidget.hpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="598" topLine="0" />
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Widgets/MultiLineTextBoxWidget.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7987" topLine="480" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Globals/GUIToolkitNFGlobals.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="SimpleCodeEditor.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10578" topLine="180" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Widgets/IconItemWidget.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3654" topLine="165" />
 		</Cursor>
 	</File>
 	<File name="ToolkitNF/Renderers/ScreenRenderer.hpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -62,14 +52,44 @@
 			<Cursor1 position="249" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="ToolkitNF/Managers/MouseManager.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ToolkitNF/Managers/MouseManager.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2015" topLine="72" />
+			<Cursor1 position="17042" topLine="606" />
 		</Cursor>
 	</File>
-	<File name="ToolkitNF/Managers/TimeManager.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ToolkitNF/Widgets/MultiLineRichTextBoxWidget.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="601" topLine="42" />
+			<Cursor1 position="5828" topLine="229" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Renderers/ScreenRenderer.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11052" topLine="365" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Widgets/InputWidget.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1966" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Managers/TimeManager.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="272" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Renderers/DepthBufferRenderer.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="289" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Renderers/DepthBufferRenderer.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7872" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="ToolkitNF/Managers/KeyManager.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="219" topLine="144" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

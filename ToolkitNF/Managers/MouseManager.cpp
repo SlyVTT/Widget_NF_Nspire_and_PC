@@ -432,7 +432,7 @@ void MouseManager::InternalLogic( void )
        }
        else
        {
-              mousemoveevent = false;
+              mouseevent = false;
        }
 
        m_x = (unsigned int) x;
@@ -519,8 +519,8 @@ void MouseManager::InternalLogic( void )
        int y= (int) m_y;
 
 
-        SDL_GetMouseState( &x,  &y);
-
+        //SDL_GetMouseState( &x,  &y);
+        SDL_GetRelativeMouseState( &dx, &dy );
 
        x+=(dx * m_sensibility) ;
        y+=(dy * m_sensibility);
@@ -561,7 +561,7 @@ void MouseManager::InternalLogic( void )
        }
        else
        {
-              mousemoveevent = false;
+              mouseevent = false;
        }
 
        m_x = (unsigned int) x;

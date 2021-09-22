@@ -31,13 +31,25 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add option="`sdl-config --cflags`" />
 			<Add option="-I/usr/include" />
+			<Add option="-W" />
+			<Add option="-Wunused-variable" />
+			<Add option="-Wunused-parameter" />
+			<Add option="-ffunction-sections" />
+			<Add option="-fdata-sections" />
+			<Add option="-fno-exceptions" />
+			<Add option="-lstdc++" />
+			<Add option="-DFOR_PC" />
 			<Add directory="/usr/include" />
 		</Compiler>
 		<Linker>
-			<Add option="-l/usr/lib/x86_64-linux-gnu/libSDL.a" />
-			<Add option="-l/usr/lib/x86_64-linux-gnu/libSDL_image.a" />
+			<Add option="-L/usr/lib/x86_64-linux-gnu" />
+			<Add option="-lm" />
+			<Add option="-lc" />
+			<Add option="-lSDL" />
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL_gfx" />
+			<Add option="-lSDL_image" />
 		</Linker>
 		<Unit filename="SimpleCodeEditor.cpp" />
 		<Unit filename="ToolkitNF/Debugger/Debugger.cpp" />

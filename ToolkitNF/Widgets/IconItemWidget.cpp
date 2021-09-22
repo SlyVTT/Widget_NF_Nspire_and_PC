@@ -177,6 +177,8 @@ void IconItemWidget::Logic(  )
                             hoverfunction( (char*) "test" );
               }
 
+              is_pressed = currently_pressed;
+
               for (auto& c : children ) c->Logic( );
        }
 }
